@@ -1,0 +1,27 @@
+Emacs plugins for [[https://github.com/reidrac/z80count][reidrac's z80count]] tool.
+
+=z80count= annotates z80 assembler code with timing information. This
+package allows to use =z80count= from emacs.
+
+
+* Installation
+
+Copy the =z80count.el= to a directory in your emacs' =load-path=.
+
+Add =(require 'z80count)= to your emacs configuration.
+
+Optionally, define a keybinding:
+
+#+begin_src emacs-lisp
+  (with-eval-after-load "asm-mode"
+    (define-key asm-mode-map (kbd "C-c z") #'z80count))
+#+end_src
+
+
+* Customization
+
+You can customize the group =z80count=.
+
+#+begin_src text
+  M-x customize-group RET z80count RET
+#+end_src
