@@ -66,7 +66,7 @@
   :type  'string
   :safe  'stringp)
 
-(defcustom z80count-command-options "-s -u"
+(defcustom z80count-command-options "-s"
   "z80count command line arguments."
   :group 'z80count
   :type  'string
