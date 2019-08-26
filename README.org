@@ -3,6 +3,7 @@ Emacs plugins for [[https://github.com/reidrac/z80count][reidrac's z80count]] to
 =z80count= annotates z80 assembler code with timing information. This
 package allows to use =z80count= from emacs.
 
+[[./etc/demo.gif]]
 
 * Installation
 
